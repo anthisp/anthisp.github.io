@@ -1,0 +1,30 @@
+@import 'flex';
+
+$pink: #ffb6c1;
+
+$gray: #D3D3D3;
+
+.Section1 {
+    background-color: $gray;
+}
+
+$font-stack: "Comic Sans MS";
+$primary-color: #333;
+
+p {
+    font: 100% $font-stack;
+    color: $primary-color;
+    font-size: 2em;
+    
+    background-color:cornflowerblue;
+}
+
+@mixin article {
+    font-size: 1.5em;
+    font-family: cursive;
+    background-color:beige;
+    
+}
+.article1 {
+    @include article;
+}

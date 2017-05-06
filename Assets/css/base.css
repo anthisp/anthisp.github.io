@@ -1,0 +1,24 @@
+.Aligner-item {
+  background-color: aqua; }
+
+.Aligner-item--top {
+  background-color: crimson; }
+
+.Aligner-item--bottom {
+  background-color: forestgreen; }
+
+.Section1 {
+  background-color: #D3D3D3; }
+
+p {
+  font: 100% "Comic Sans MS";
+  color: #333;
+  font-size: 2em;
+  background-color: cornflowerblue; }
+
+.article1 {
+  font-size: 1.5em;
+  font-family: cursive;
+  background-color: beige; }
+
+/*# sourceMappingURL=base.css.map */

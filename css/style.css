@@ -1,0 +1,28 @@
+.Aligner {
+    display: flex;
+    align-items: center;
+    min-height: 24em;
+    justify-content: center;
+    border-style: dashed;
+    font-size: 1.5em;
+}
+
+.Aligner-item {
+    flex: 1;
+    border-style: dotted;
+}
+
+.Aligner-item--top {
+    align-self: flex-start;
+    border-style: solid;
+}
+
+.Aligner-item--bottom {
+    align-self: flex-end;
+    border-style: groove;
+}
+
+.Aligner-item--fixed {
+    flex: none;
+    max-width: 50%;
+}
