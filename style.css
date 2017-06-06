@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?1u0ml8');
+  src:  url('fonts/icomoon.eot?1u0ml8#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1u0ml8') format('truetype'),
+    url('fonts/icomoon.woff?1u0ml8') format('woff'),
+    url('fonts/icomoon.svg?1u0ml8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+    font-size: 42;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail4:before {
+  content: "\ea86";
+}
+.icon-github:before {
+  content: "\eab0";
+}
+.icon-linkedin:before {
+  content: "\eac9";
+}
+.wrap {
+    color:#ffffff; 
+    text-decoration: none;
+}
+.nav {
+    width: 80px;
+    float: inherit;
+    padding-right: 10px;
+}
+.nav:hover {
+  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+
+#stage {
+  background-color: #000000;
+  width: 600px;
+  height: 250px;
+  position: relative;
+  margin-top: 20px;
+  overflow: hidden;
+}
+ 
+#raining-text {
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size:24px;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+}; 
+
+
